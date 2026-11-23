@@ -3,46 +3,66 @@
 <img src="assets/banner.svg" alt="Layali" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3200&pause=900&color=DFC1D3&center=true&vCenter=true&width=700&lines=Next.js+15+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Tailwind;Animated+video+cards+%26+chocolate+drip+scenes;Secure+admin+panel+with+live+menu+editing;Deployed+on+Vercel+%E2%9A%A1" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3200&pause=900&color=DFC1D3&center=true&vCenter=true&width=760&height=40&lines=A+caf%C3%A9+menu+that+feels+alive+%E2%98%95;Floating+beans+%C2%B7+Whipped+clouds+%C2%B7+Chocolate+drips;Glassmorphism+admin+panel+with+live+editing;Next.js+%C2%B7+TypeScript+%C2%B7+Tailwind+%C2%B7+Vercel" alt="Typing animation" />
 </a>
 
 <br/>
 
-[![Live Menu](https://img.shields.io/badge/%E2%98%95_Live_Menu-Open-dfc1d3?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-fagr.vercel.app/)
-[![Admin](https://img.shields.io/badge/%F0%9F%94%90_Admin_Panel-Open-9dbb6b?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-fagr.vercel.app/edit)
-[![Backend Repo](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_Backend-Repository-e0a878?style=for-the-badge&labelColor=2a1a12)](https://github.com/Omar404X0/Menu-Backend)
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<a href="https://menu-backend-fagr.vercel.app/"><img src="https://img.shields.io/badge/%E2%98%95%20%20VIEW%20LIVE%20MENU-dfc1d3?style=for-the-badge&labelColor=2a1a12" alt="Live menu"/></a>
+<a href="https://menu-backend-fagr.vercel.app/edit"><img src="https://img.shields.io/badge/%F0%9F%94%90%20%20ADMIN%20PANEL-9dbb6b?style=for-the-badge&labelColor=2a1a12" alt="Admin"/></a>
+<a href="https://github.com/Omar404X0/Menu-Backend"><img src="https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20%20BACKEND%20REPO-e0a878?style=for-the-badge&labelColor=2a1a12" alt="Backend"/></a>
 
 <br/><br/>
 
 <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel,nodejs&theme=dark" alt="stack"/>
 
+<br/><br/>
+
+![Status](https://img.shields.io/badge/status-live-9dbb6b?style=flat-square&labelColor=2a1a12)
+![Deployed](https://img.shields.io/badge/deployed_on-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Responsive](https://img.shields.io/badge/layout-responsive-dfc1d3?style=flat-square&labelColor=2a1a12)
+![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-e0a878?style=flat-square&labelColor=2a1a12)
+
 </div>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%"><h1>3</h1><sub><b>MENU CATEGORIES</b><br/>hot · cold · cake</sub></td>
+    <td align="center" width="25%"><h1>9</h1><sub><b>LOOPING VIDEO CARDS</b><br/>3 per section</sub></td>
+    <td align="center" width="25%"><h1>3</h1><sub><b>ANIMATED SCENES</b><br/>beans · clouds · drips</sub></td>
+    <td align="center" width="25%"><h1>1h</h1><sub><b>SECURE SESSION</b><br/>Redis-backed token</sub></td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 📖 Table of Contents
 
+<table>
+  <tr>
+    <td>
+
 - [✨ Overview](#-overview)
 - [🌐 Live Demo](#-live-demo)
-- [📸 Screenshots](#-screenshots)
 - [🎯 Features](#-features)
 - [🏗️ Architecture](#️-architecture)
 - [🔄 Admin Flow](#-admin-flow)
+
+</td>
+    <td>
+
 - [🧩 Component Breakdown](#-component-breakdown)
 - [🎨 Design System](#-design-system)
-- [🛠️ Tech Stack](#️-tech-stack)
 - [🚀 Getting Started](#-getting-started)
-- [🔧 Environment Variables](#-environment-variables)
 - [☁️ Deployment](#️-deployment)
-- [🧠 What I Learned](#-what-i-learned)
 - [🗺️ Roadmap](#️-roadmap)
-- [🔗 Related Repository](#-related-repository)
+
+</td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -50,93 +70,79 @@
 
 **Layali** is a café menu that feels alive. Instead of a boring price list, customers get a hand-crafted scrolling experience: **floating coffee beans**, a **whipped-cream cloud** that melts into the iced section, and a **chocolate drip** that pours into the cakes section, with stacked **looping video cards** beside every category.
 
-Behind the scenes, the café owner gets a private **glassmorphism admin dashboard** to add, edit and delete products in real time, with no code and no redeploy. Every change goes through a secured API and shows up on the public menu instantly.
+Behind the scenes, the café owner gets a private **glassmorphism admin dashboard** to add, edit and delete products in real time, with no code and no redeploy.
 
+> [!NOTE]
 > The public menu and the admin panel are two parts of **one** Next.js app, and both talk to the same FastAPI backend.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🌐 Live Demo
 
-| Page | URL |
-|------|-----|
-| ☕ Public menu | https://menu-backend-fagr.vercel.app/ |
-| 🔐 Admin dashboard | https://menu-backend-fagr.vercel.app/edit |
-| ⚙️ API (Render) | https://menu-backend-grr7.onrender.com |
-
-> ⏳ The API runs on a free Render instance. If it has been idle, the **first request can take ~30–50 seconds** while the server wakes up.
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 📸 Screenshots
-
-### Public menu
-
 <table>
   <tr>
-    <td align="center" width="100%">
-      <img src="docs/screenshots/menu-hot.png" alt="Hot Favorites section" width="100%"/>
-      <br/><sub><b>Hot Favorites</b>: falling coffee beans, dotted price leaders and stacked video cards</sub>
+    <td align="center" width="50%">
+      <h3>☕ Public Menu</h3>
+      <a href="https://menu-backend-fagr.vercel.app/">menu-backend-fagr.vercel.app</a>
+      <br/><sub>What your customers see</sub>
     </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/menu-iced.png" alt="Iced Favorites section" width="100%"/>
-      <br/><sub><b>Iced Favorites</b>: whipped-cream clouds with a soft pink and matcha palette</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="docs/screenshots/menu-cakes.png" alt="Cakes section" width="100%"/>
-      <br/><sub><b>Cakes</b>: a chocolate drip pouring over the page</sub>
+    <td align="center" width="50%">
+      <h3>🔐 Admin Dashboard</h3>
+      <a href="https://menu-backend-fagr.vercel.app/edit">menu-backend-fagr.vercel.app/edit</a>
+      <br/><sub>Where the owner manages products</sub>
     </td>
   </tr>
 </table>
 
-### Admin dashboard
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="docs/screenshots/admin-login.png" alt="Admin login" />
-      <br/><sub><b>Login</b>: frosted-glass card over animated gradient orbs</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="docs/screenshots/admin-new-product.png" alt="New product modal" />
-      <br/><sub><b>New product</b>: category chips + inline “+ New” category</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <img src="docs/screenshots/admin-dashboard.png" alt="Admin dashboard" width="100%"/>
-      <br/><sub><b>Dashboard</b>: items grouped by category with edit and delete actions</sub>
-    </td>
-  </tr>
-</table>
+> [!TIP]
+> The API runs on a free Render instance. If it has been idle, the **first request can take ~30–50 seconds** while the server wakes up. After that it's instant.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🎯 Features
 
-### 🍽️ Public menu
-- **Dynamic content**: items are fetched from the API, so nothing is hard-coded.
-- **Category sections** (`hot`, `cold`, `cake`) with dotted “leader” lines between name and price.
-- **Stacked video cards** with autoplay, loop, muted and `playsInline`. Hovering a card straightens it, scales it up and brings it to the front.
-- **Custom scenery per section**: `CoffeeBeans`, `IcedFoam` (clouds) and `ChocolateDrip`.
-- **Per-section colour themes** (cream → pink → cream) for a clear visual rhythm.
-- **Fully responsive**, with a column layout on mobile and a split layout on desktop.
-
-### 🔐 Admin dashboard (`/edit`)
-- **Email + password login** against the backend, with show/hide password toggle and a shake animation on errors.
-- **Session token** stored in `sessionStorage`, so it dies when the tab closes (the server also expires it after 1 hour).
-- **Full CRUD**:
-  - ➕ Add a product, choosing an existing category or creating a new one on the fly
-  - ✏️ Edit name, price and category in a modal (with a `datalist` of categories)
-  - 🗑️ Delete a product instantly
-- **Optimistic UI**: edits and deletes update the screen immediately.
-- **Keyboard friendly**: `Enter` moves or submits, `Esc` closes modals.
-- **Input validation** (empty fields, NaN and negative prices) before anything is sent.
-- **Glassmorphism UI** with blurred orbs, gradient borders and smooth micro-interactions.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🍽️ Dynamic Menu</h3>
+      Items come straight from the API, grouped by category, with dotted “leader” lines between name and price. Nothing is hard-coded.
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎞️ Stacked Video Cards</h3>
+      Autoplay, loop and muted clips in tilted cards. Hover straightens a card, scales it up and brings it to the front.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎨 Scenery Per Section</h3>
+      <code>CoffeeBeans</code>, whipped-cream <code>IcedFoam</code> and a dripping <code>ChocolateDrip</code>, each with its own colour theme.
+    </td>
+    <td width="50%" valign="top">
+      <h3>📱 Fully Responsive</h3>
+      A single-column layout on phones and a split layout on desktop, tuned with Tailwind breakpoints.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 Secure Admin Login</h3>
+      Email + password against the backend. The session token lives in <code>sessionStorage</code> and expires server-side after one hour.
+    </td>
+    <td width="50%" valign="top">
+      <h3>✏️ Full CRUD</h3>
+      Add a product (pick or create a category on the fly), edit name, price and category in a modal, or delete it instantly.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Optimistic UI</h3>
+      Edits and deletes update the screen immediately, then sync with the server.
+    </td>
+    <td width="50%" valign="top">
+      <h3>⌨️ Keyboard Friendly</h3>
+      <code>Enter</code> moves or submits, <code>Esc</code> closes modals, and every field is validated before anything is sent.
+    </td>
+  </tr>
+</table>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -218,6 +224,11 @@ public/
 └── cake.mp4    cake2.mp4  cake3.mp4
 ```
 
+<details>
+<summary><b>🔎 What each component does</b></summary>
+
+<br/>
+
 | Component | Responsibility |
 |-----------|----------------|
 | `Home` | Fetches items once, filters per category with `by(category)` and renders three themed sections |
@@ -226,33 +237,23 @@ public/
 | `VideoStack` | Three absolutely-positioned, rotated video cards (`POS` array) with hover effects |
 | `AdminLogin` | One component with 3 states: login, dashboard, and modals (edit/add) |
 
+</details>
+
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🎨 Design System
 
-| Token | Colour | Used for |
-|-------|--------|----------|
-| 🟫 Espresso | `#2a1a12` | Admin background |
-| 🌸 Orchid | `#dfc1d3` | Primary accent, buttons, focus rings |
-| 🍑 Peach | `#f3d9c8` | Prices, gradient highlights |
-| 🌿 Matcha | `#9dbb6b` / `#577665` | Iced section & ambient orb |
-| 🥛 Cream | `#e0dcd1` | Public menu background |
-| 🍫 Cocoa | `#3b2216` | Text on light buttons |
+<table>
+  <tr>
+    <td align="center"><img src="https://placehold.co/90x40/2a1a12/2a1a12.png" alt=""/><br/><b>Espresso</b><br/><code>#2a1a12</code><br/><sub>Admin background</sub></td>
+    <td align="center"><img src="https://placehold.co/90x40/dfc1d3/dfc1d3.png" alt=""/><br/><b>Orchid</b><br/><code>#dfc1d3</code><br/><sub>Accent & focus rings</sub></td>
+    <td align="center"><img src="https://placehold.co/90x40/f3d9c8/f3d9c8.png" alt=""/><br/><b>Peach</b><br/><code>#f3d9c8</code><br/><sub>Prices & highlights</sub></td>
+    <td align="center"><img src="https://placehold.co/90x40/9dbb6b/9dbb6b.png" alt=""/><br/><b>Matcha</b><br/><code>#9dbb6b</code><br/><sub>Iced section orb</sub></td>
+    <td align="center"><img src="https://placehold.co/90x40/e0dcd1/e0dcd1.png" alt=""/><br/><b>Cream</b><br/><code>#e0dcd1</code><br/><sub>Menu background</sub></td>
+  </tr>
+</table>
 
 Typography uses a handwritten script for the public menu and **Poppins** for the admin UI.
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 🛠️ Tech Stack
-
-| Layer | Tech |
-|-------|------|
-| Framework | **Next.js** (App Router, client components) |
-| Language | **TypeScript** |
-| Styling | **Tailwind CSS** |
-| State | React hooks (`useState`, `useRef`, `useEffect`) |
-| Hosting | **Vercel** |
-| API | FastAPI on **Render** |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -275,31 +276,33 @@ npm run dev
 
 Open **http://localhost:3000** for the menu and **http://localhost:3000/edit** for the admin panel.
 
-Make sure the backend is running locally (default `http://localhost:8000`). See the backend repo for setup.
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 🔧 Environment Variables
-
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `NEXT_PUBLIC_API_URL` | Base URL of the FastAPI backend | `https://menu-backend-grr7.onrender.com` |
 
-`.env.local` example:
-
 ```env
+# .env.local
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
+
+> [!IMPORTANT]
+> Run the backend locally first (default `http://localhost:8000`). See the [Menu-Backend](https://github.com/Omar404X0/Menu-Backend) repo for setup.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## ☁️ Deployment
 
-1. Push the repo to GitHub.
-2. Import it on **[Vercel](https://vercel.com)**.
-3. Add `NEXT_PUBLIC_API_URL` under *Project → Settings → Environment Variables*.
-4. Deploy. Every push to `master` redeploys automatically.
-5. Add your Vercel domain to the backend's `FRONTEND_URL` so **CORS** allows it.
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>1️⃣</h3><b>Push</b><br/><sub>Push the repo to GitHub</sub></td>
+    <td align="center" width="25%"><h3>2️⃣</h3><b>Import</b><br/><sub>Import it on <a href="https://vercel.com">Vercel</a></sub></td>
+    <td align="center" width="25%"><h3>3️⃣</h3><b>Configure</b><br/><sub>Add <code>NEXT_PUBLIC_API_URL</code> in Environment Variables</sub></td>
+    <td align="center" width="25%"><h3>4️⃣</h3><b>Ship</b><br/><sub>Every push to <code>master</code> redeploys automatically</sub></td>
+  </tr>
+</table>
+
+> [!WARNING]
+> Add your Vercel domain to the backend's `FRONTEND_URL`, otherwise **CORS** will block the requests.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -307,34 +310,32 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 This project was my hands-on playground for turning new tools into one real, deployed product:
 
-- 🔴 **Redis**: server-side sessions with automatic expiry
-- 🐳 **Docker**: containerising the backend for consistent environments
-- 🧪 **pytest**: testing the API endpoints
-- 🌩️ **Cloud deployment**: Vercel (frontend), Render (API), Neon (PostgreSQL)
-- 🎨 **Frontend craft**: glassmorphism, animation and responsive layouts
+| | Tool | What I practised |
+|---|------|------------------|
+| 🔴 | **Redis** | Server-side sessions with automatic expiry |
+| 🐳 | **Docker** | Containerising for consistent environments |
+| 🧪 | **pytest** | Testing the API endpoints |
+| 🌩️ | **Cloud** | Vercel (frontend) · Render (API) · Neon (PostgreSQL) |
+| 🎨 | **Frontend craft** | Glassmorphism, animation and responsive layouts |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 ## 🗺️ Roadmap
 
-- [ ] Move the token to an `Authorization: Bearer` header
-- [ ] Replace `alert()` with toast notifications
+- [x] Public animated menu
+- [x] Admin login with Redis sessions
+- [x] Add / edit / delete products
+- [ ] Send the token via an `Authorization: Bearer` header
+- [ ] Toast notifications instead of `alert()`
 - [ ] Image upload for products
 - [ ] Arabic / RTL language toggle
 - [ ] Drag-and-drop ordering of items
-- [ ] Dark/light menu mode
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-## 🔗 Related Repository
-
-| Repo | Description |
-|------|-------------|
-| **[Backend](https://github.com/Omar404X0/Menu-Backend)** (`Menu-Backend`) | FastAPI + SQLAlchemy + Redis + Docker + pytest |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 <div align="center">
+
+### Enjoyed it? Drop a ⭐ and check the [backend repo](https://github.com/Omar404X0/Menu-Backend)
 
 Made with ☕ and 💜 by **[Omar Elmallah](https://github.com/Omar404X0)**
 
