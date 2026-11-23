@@ -99,13 +99,12 @@ function MenuSection({
 export default function Home() {
   const [items, setItems] = useState<Item[]>([])
 
-  useEffect(() => {
-    fetch('http://127.0.0.1:8000')
-      .then((res) => res.json())
-      .then((data) => setItems(data))
-      .catch((err) => console.error('Failed to load menu:', err))
-  }, [])
-
+useEffect(() => {
+  fetch(process.env.NEXT_PUBLIC_API_URL ?? 'https://menu-backend-grr7.onrender.com')
+    .then((res) => res.json())
+    .then((data) => setItems(data))
+    .catch((err) => console.error('Failed to load menu:', err))
+}, []) 
   const by = (category: string) => items.filter((i) => i.category === category)
 
   return (

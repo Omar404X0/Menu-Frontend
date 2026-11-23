@@ -9,6 +9,8 @@ type Items = {
   category: string
 }
 
+const API = process.env.NEXT_PUBLIC_API_URL ?? 'https://menu-backend-grr7.onrender.com'
+
 export default function AdminLogin() {
   const [items, setItems] = useState<Items[]>([])
   const [loggedIn, setLoggedIn] = useState(false)
@@ -32,7 +34,7 @@ export default function AdminLogin() {
 
   async function loadItems() {
     try {
-      const req = await fetch('http://127.0.0.1:8000/')
+      const req = await fetch(`${API}/`)
       const data = await req.json()
       setItems(data)
     } catch (err) {
@@ -58,7 +60,7 @@ export default function AdminLogin() {
     setError('')
     setLoading(true)
     try {
-      const req = await fetch('http://127.0.0.1:8000/edit/login', {
+      const req = await fetch(`${API}/edit/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -96,7 +98,7 @@ export default function AdminLogin() {
     setItems((prev) =>
       prev.map((i) => (i.id === editing.id ? { ...i, name, category, price } : i))
     )
-    const req = await fetch('http://127.0.0.1:8000/edit/item', {
+    const req = await fetch(`${API}/edit/item`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token: sessionStorage.getItem('token'), id: editing.id, name, category, price }),
@@ -114,7 +116,7 @@ export default function AdminLogin() {
 
   async function deleteItem(item: Items) {
     setDeleted(item)
-    const req = await fetch('http://127.0.0.1:8000/edit/delete', {
+    const req = await fetch(`${API}/edit/delete`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token: sessionStorage.getItem('token'), id: item?.id }),
@@ -153,7 +155,7 @@ export default function AdminLogin() {
 
     setAddError('')
 
-    const req = await fetch('http://127.0.0.1:8000/edit/add', {
+    const req = await fetch(`${API}/edit/add`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ token: sessionStorage.getItem('token'), name: name, price: price, category: category }),
