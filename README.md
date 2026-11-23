@@ -26,7 +26,6 @@
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 📖 Table of Contents
 
 - [✨ Overview](#-overview)
@@ -47,7 +46,6 @@
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## ✨ Overview
 
 **Layali** is a café menu that feels alive. Instead of a boring price list, customers get a hand-crafted scrolling experience: **floating coffee beans**, a **whipped-cream cloud** that melts into the iced section, and a **chocolate drip** that pours into the cakes section, with stacked **looping video cards** beside every category.
@@ -57,7 +55,6 @@ Behind the scenes, the café owner gets a private **glassmorphism admin dashboar
 > The public menu and the admin panel are two parts of **one** Next.js app, and both talk to the same FastAPI backend.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 🌐 Live Demo
 
@@ -70,7 +67,6 @@ Behind the scenes, the café owner gets a private **glassmorphism admin dashboar
 > ⏳ The API runs on a free Render instance. If it has been idle, the **first request can take ~30–50 seconds** while the server wakes up.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 📸 Screenshots
 
@@ -120,7 +116,6 @@ Behind the scenes, the café owner gets a private **glassmorphism admin dashboar
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🎯 Features
 
 ### 🍽️ Public menu
@@ -144,7 +139,6 @@ Behind the scenes, the café owner gets a private **glassmorphism admin dashboar
 - **Glassmorphism UI** with blurred orbs, gradient borders and smooth micro-interactions.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 🏗️ Architecture
 
@@ -172,7 +166,6 @@ flowchart LR
 ```
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 🔄 Admin Flow
 
@@ -209,7 +202,6 @@ sequenceDiagram
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🧩 Component Breakdown
 
 ```text
@@ -236,7 +228,6 @@ public/
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🎨 Design System
 
 | Token | Colour | Used for |
@@ -252,7 +243,6 @@ Typography uses a handwritten script for the public menu and **Poppins** for the
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🛠️ Tech Stack
 
 | Layer | Tech |
@@ -265,7 +255,6 @@ Typography uses a handwritten script for the public menu and **Poppins** for the
 | API | FastAPI on **Render** |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 🚀 Getting Started
 
@@ -290,7 +279,6 @@ Make sure the backend is running locally (default `http://localhost:8000`). See 
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🔧 Environment Variables
 
 | Variable | Description | Default |
@@ -305,17 +293,15 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## ☁️ Deployment
 
 1. Push the repo to GitHub.
 2. Import it on **[Vercel](https://vercel.com)**.
 3. Add `NEXT_PUBLIC_API_URL` under *Project → Settings → Environment Variables*.
-4. Deploy. Every push to `main` redeploys automatically.
+4. Deploy. Every push to `master` redeploys automatically.
 5. Add your Vercel domain to the backend's `FRONTEND_URL` so **CORS** allows it.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 ## 🧠 What I Learned
 
@@ -329,7 +315,6 @@ This project was my hands-on playground for turning new tools into one real, dep
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🗺️ Roadmap
 
 - [ ] Move the token to an `Authorization: Bearer` header
@@ -341,7 +326,6 @@ This project was my hands-on playground for turning new tools into one real, dep
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-
 ## 🔗 Related Repository
 
 | Repo | Description |
@@ -349,7 +333,6 @@ This project was my hands-on playground for turning new tools into one real, dep
 | **[Backend](https://github.com/Omar404X0/Menu-Backend)** (`Menu-Backend`) | FastAPI + SQLAlchemy + Redis + Docker + pytest |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
-
 
 <div align="center">
 
