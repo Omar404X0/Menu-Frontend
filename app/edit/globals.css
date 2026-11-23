@@ -1,0 +1,30 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}@keyframes orb-move {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(60px, 40px) scale(1.15); }
+}
+@keyframes orb-move2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-70px, -50px) scale(1.2); }
+}
+@keyframes orb-move3 {
+  0%, 100% { transform: translate(-50%, 0) scale(1); }
+  50%      { transform: translate(-30%, 40px) scale(1.25); }
+}
+.orb  { animation: orb-move 12s ease-in-out infinite; }
+.orb2 { animation: orb-move2 14s ease-in-out infinite; }
+.orb3 { animation: orb-move3 16s ease-in-out infinite; }
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(24px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.card-in { animation: card-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+.shake { animation: shake 0.4s ease-in-out; }
