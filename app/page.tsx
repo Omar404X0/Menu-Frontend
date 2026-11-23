@@ -21,7 +21,7 @@ const POS = [
 
 const videos_hot = [
   { src: "/coffee.mp4", brightness: "brightness-[1.019]" },
-  { src: "/tea.mp4", brightness: "brightness-[1.029]" },
+  { src: "/Tea.mp4", brightness: "brightness-[1.029]" },
   { src: "/latte.mp4", brightness: "brightness-100" },
 ]
 
