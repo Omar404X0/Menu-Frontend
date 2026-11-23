@@ -3,28 +3,24 @@
 <img src="assets/banner.svg" alt="Layali" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=9DBB6B&center=true&vCenter=true&width=760&lines=POST+%2Fedit%2Flogin+%E2%86%92+bcrypt+%2B+Redis+session;Token+expires+automatically+after+1+hour;Containerised+with+Docker;Tested+with+pytest;Deployed+on+Render+%2B+Neon" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3200&pause=900&color=DFC1D3&center=true&vCenter=true&width=700&lines=Next.js+15+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+Tailwind;Animated+video+cards+%26+chocolate+drip+scenes;Secure+admin+panel+with+live+menu+editing;Deployed+on+Vercel+%E2%9A%A1" alt="Typing animation" />
 </a>
 
 <br/>
 
-[![API Live](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_API-Live_on_Render-9dbb6b?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-grr7.onrender.com/health)
-[![Docs](https://img.shields.io/badge/%F0%9F%93%9A_Swagger-/docs-dfc1d3?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-grr7.onrender.com/docs)
-[![Frontend](https://img.shields.io/badge/%E2%98%95_Frontend-Vercel-e0a878?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-fagr.vercel.app/)
+[![Live Menu](https://img.shields.io/badge/%E2%98%95_Live_Menu-Open-dfc1d3?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-fagr.vercel.app/)
+[![Admin](https://img.shields.io/badge/%F0%9F%94%90_Admin_Panel-Open-9dbb6b?style=for-the-badge&labelColor=2a1a12)](https://menu-backend-fagr.vercel.app/edit)
+[![Backend Repo](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F_Backend-Repository-e0a878?style=for-the-badge&labelColor=2a1a12)](https://github.com/Omar404X0/Menu-Backend)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=flat-square&logo=tailwindcss&logoColor=38BDF8)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 <br/><br/>
 
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,redis,docker,pytest,sqlalchemy&theme=dark" alt="stack"/>
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,vercel,nodejs&theme=dark" alt="stack"/>
 
 </div>
 
@@ -34,17 +30,16 @@
 ## 📖 Table of Contents
 
 - [✨ Overview](#-overview)
-- [🌐 Live](#-live)
+- [🌐 Live Demo](#-live-demo)
+- [📸 Screenshots](#-screenshots)
+- [🎯 Features](#-features)
 - [🏗️ Architecture](#️-architecture)
-- [🔐 Authentication Flow](#-authentication-flow)
-- [📡 API Reference](#-api-reference)
-- [🗄️ Data Model](#️-data-model)
-- [🛡️ Security Notes](#️-security-notes)
-- [📂 Project Structure](#-project-structure)
+- [🔄 Admin Flow](#-admin-flow)
+- [🧩 Component Breakdown](#-component-breakdown)
+- [🎨 Design System](#-design-system)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [🚀 Getting Started](#-getting-started)
 - [🔧 Environment Variables](#-environment-variables)
-- [🚀 Run Locally](#-run-locally)
-- [🐳 Docker](#-docker)
-- [🧪 Testing](#-testing)
 - [☁️ Deployment](#️-deployment)
 - [🧠 What I Learned](#-what-i-learned)
 - [🗺️ Roadmap](#️-roadmap)
@@ -55,33 +50,98 @@
 
 ## ✨ Overview
 
-The backend of **Layali Menu**, a café menu with an admin dashboard. It exposes a small, fast REST API that:
+**Layali** is a café menu that feels alive. Instead of a boring price list, customers get a hand-crafted scrolling experience: **floating coffee beans**, a **whipped-cream cloud** that melts into the iced section, and a **chocolate drip** that pours into the cakes section, with stacked **looping video cards** beside every category.
 
-- 🍽️ serves the public menu,
-- 🔐 authenticates the café admin with **bcrypt**-hashed passwords,
-- ⏱️ keeps login sessions in **Redis** with an automatic **1-hour expiry**,
-- ✏️ lets the admin **add, edit and delete** products,
-- 🗄️ persists everything in **PostgreSQL (Neon)**, with a SQLite fallback for local development.
+Behind the scenes, the café owner gets a private **glassmorphism admin dashboard** to add, edit and delete products in real time, with no code and no redeploy. Every change goes through a secured API and shows up on the public menu instantly.
 
-<div align="center">
-  <img src="docs/screenshots/admin-dashboard.png" alt="Admin dashboard powered by this API" width="90%"/>
-  <br/><sub>The admin dashboard (frontend repo) consuming this API</sub>
-</div>
+> The public menu and the admin panel are two parts of **one** Next.js app, and both talk to the same FastAPI backend.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
-## 🌐 Live
+## 🌐 Live Demo
 
-| Resource | URL |
-|----------|-----|
-| API base | https://menu-backend-grr7.onrender.com |
-| Health check | https://menu-backend-grr7.onrender.com/health |
-| Interactive docs (Swagger) | https://menu-backend-grr7.onrender.com/docs |
-| Menu website | https://menu-backend-fagr.vercel.app/ |
-| Admin panel | https://menu-backend-fagr.vercel.app/edit |
+| Page | URL |
+|------|-----|
+| ☕ Public menu | https://menu-backend-fagr.vercel.app/ |
+| 🔐 Admin dashboard | https://menu-backend-fagr.vercel.app/edit |
+| ⚙️ API (Render) | https://menu-backend-grr7.onrender.com |
 
-> ⏳ Render's free tier sleeps when idle, so the first request may take ~30–50 s.
+> ⏳ The API runs on a free Render instance. If it has been idle, the **first request can take ~30–50 seconds** while the server wakes up.
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+
+## 📸 Screenshots
+
+### Public menu
+
+<table>
+  <tr>
+    <td align="center" width="100%">
+      <img src="docs/screenshots/menu-hot.png" alt="Hot Favorites section" width="100%"/>
+      <br/><sub><b>Hot Favorites</b>: falling coffee beans, dotted price leaders and stacked video cards</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/menu-iced.png" alt="Iced Favorites section" width="100%"/>
+      <br/><sub><b>Iced Favorites</b>: whipped-cream clouds with a soft pink and matcha palette</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="docs/screenshots/menu-cakes.png" alt="Cakes section" width="100%"/>
+      <br/><sub><b>Cakes</b>: a chocolate drip pouring over the page</sub>
+    </td>
+  </tr>
+</table>
+
+### Admin dashboard
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/admin-login.png" alt="Admin login" />
+      <br/><sub><b>Login</b>: frosted-glass card over animated gradient orbs</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/admin-new-product.png" alt="New product modal" />
+      <br/><sub><b>New product</b>: category chips + inline “+ New” category</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <img src="docs/screenshots/admin-dashboard.png" alt="Admin dashboard" width="100%"/>
+      <br/><sub><b>Dashboard</b>: items grouped by category with edit and delete actions</sub>
+    </td>
+  </tr>
+</table>
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+
+## 🎯 Features
+
+### 🍽️ Public menu
+- **Dynamic content**: items are fetched from the API, so nothing is hard-coded.
+- **Category sections** (`hot`, `cold`, `cake`) with dotted “leader” lines between name and price.
+- **Stacked video cards** with autoplay, loop, muted and `playsInline`. Hovering a card straightens it, scales it up and brings it to the front.
+- **Custom scenery per section**: `CoffeeBeans`, `IcedFoam` (clouds) and `ChocolateDrip`.
+- **Per-section colour themes** (cream → pink → cream) for a clear visual rhythm.
+- **Fully responsive**, with a column layout on mobile and a split layout on desktop.
+
+### 🔐 Admin dashboard (`/edit`)
+- **Email + password login** against the backend, with show/hide password toggle and a shake animation on errors.
+- **Session token** stored in `sessionStorage`, so it dies when the tab closes (the server also expires it after 1 hour).
+- **Full CRUD**:
+  - ➕ Add a product, choosing an existing category or creating a new one on the fly
+  - ✏️ Edit name, price and category in a modal (with a `datalist` of categories)
+  - 🗑️ Delete a product instantly
+- **Optimistic UI**: edits and deletes update the screen immediately.
+- **Keyboard friendly**: `Enter` moves or submits, `Esc` closes modals.
+- **Input validation** (empty fields, NaN and negative prices) before anything is sent.
+- **Glassmorphism UI** with blurred orbs, gradient borders and smooth micro-interactions.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -89,344 +149,195 @@ The backend of **Layali Menu**, a café menu with an admin dashboard. It exposes
 ## 🏗️ Architecture
 
 ```mermaid
-flowchart TB
-    FE[🖥️ Next.js Frontend<br/>Vercel] -- HTTPS / JSON --> CORS{CORS<br/>FRONTEND_URL}
-    CORS --> API
+flowchart LR
+    U([👤 Customer]) -->|GET /| FE
+    A([🧑‍🍳 Admin]) -->|/edit| FE
 
-    subgraph Render["☁️ Render: Docker container"]
-      API[⚡ FastAPI]
-      API --> ORM[SQLAlchemy ORM]
-      API --> PW[passlib / bcrypt]
+    subgraph Vercel
+      FE[Next.js Frontend<br/>React + TypeScript + Tailwind]
     end
 
-    ORM --> DB[(🐘 Neon PostgreSQL<br/>menu · admin)]
-    API -- "SET session:token EX 3600" --> R[(🔴 Redis)]
+    subgraph Render
+      API[FastAPI Backend]
+    end
 
+    FE -->|REST / JSON| API
+    API -->|SQLAlchemy| DB[(Neon PostgreSQL)]
+    API -->|session:token, TTL 1h| R[(Redis)]
+
+    style FE fill:#3a2418,stroke:#dfc1d3,color:#fff
     style API fill:#3a2418,stroke:#9dbb6b,color:#fff
     style DB fill:#2a1a12,stroke:#e0a878,color:#fff
-    style R fill:#2a1a12,stroke:#dc382d,color:#fff
+    style R fill:#2a1a12,stroke:#e0a878,color:#fff
 ```
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
-## 🔐 Authentication Flow
+## 🔄 Admin Flow
 
 ```mermaid
 sequenceDiagram
     autonumber
-    participant C as Client
-    participant A as FastAPI
-    participant D as PostgreSQL
-    participant R as Redis
+    actor Admin
+    participant UI as Next.js (/edit)
+    participant API as FastAPI
+    participant Redis
+    participant DB as PostgreSQL
 
-    C->>A: POST /edit/login {email, password}
-    A->>D: SELECT admin WHERE email = ?
-    D-->>A: admin row (bcrypt hash)
-    A->>A: verify_password(plain, hash)
-    alt valid credentials
-        A->>A: token = secrets.token_urlsafe(32)
-        A->>R: SET session:{token} = admin.id  (EX 3600)
-        A-->>C: 200 { token }
-    else invalid
-        A-->>C: 401 Wrong In email or password
+    Admin->>UI: Enter email + password
+    UI->>API: POST /edit/login
+    API->>DB: Find admin by email
+    API->>API: Verify bcrypt hash
+    API->>Redis: SET session:<token> (EX 3600)
+    API-->>UI: { token }
+    UI->>UI: sessionStorage.setItem("token")
+    UI->>API: GET /  (load the menu)
+    API-->>UI: items[]
+
+    Admin->>UI: Add / Edit / Delete
+    UI->>API: POST /edit/add | /edit/item | /edit/delete { token, ... }
+    API->>Redis: Is the session alive?
+    alt token valid
+        API->>DB: Write change
+        API-->>UI: { ok: true }
+        UI->>UI: Update list
+    else token expired
+        API-->>UI: 401 – please login again
     end
-
-    Note over C,R: Every protected request sends the token
-
-    C->>A: POST /edit/item { token, ... }
-    A->>R: GET session:{token}
-    alt exists
-        A->>D: UPDATE menu
-        A-->>C: { ok: true }
-    else missing / expired
-        A-->>C: 401 Token invalid or expired
-    end
 ```
-
-**Why Redis for sessions?** Sessions are short-lived key/value data, which is exactly what Redis is built for. `EX 3600` makes every session **self-destruct after an hour** with no cleanup job, and the API stays stateless and horizontally scalable.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
-## 📡 API Reference
-
-Base URL: `https://menu-backend-grr7.onrender.com`
-
-| Method | Endpoint | Auth | Description |
-|:------:|----------|:----:|-------------|
-| `GET` | `/health` | ❌ | Liveness probe → `{"status": "ok"}` |
-| `GET` | `/` | ❌ | List all menu items |
-| `GET` | `/edit/get` | ❌ | List all items (admin view) |
-| `POST` | `/edit/login` | ❌ | Exchange credentials for a session token |
-| `POST` | `/edit/item` | ✅ | Update an item |
-| `POST` | `/edit/delete` | ✅ | Delete an item |
-| `POST` | `/edit/add` | ✅ | Create an item |
-
-<details>
-<summary><b>📥 GET /</b></summary>
-
-```bash
-curl https://menu-backend-grr7.onrender.com/
-```
-
-```json
-[
-  { "id": 1, "name": "Cappuccino", "price": 112.0, "category": "hot" },
-  { "id": 9, "name": "Iced Latte", "price": 112.0, "category": "cold" },
-  { "id": 13, "name": "Carrot Cake", "price": 130.0, "category": "cake" }
-]
-```
-</details>
-
-<details>
-<summary><b>🔑 POST /edit/login</b></summary>
-
-```bash
-curl -X POST $API/edit/login \
-  -H "Content-Type: application/json" \
-  -d '{"email": "admin@example.com", "password": "••••••••"}'
-```
-
-**200**
-```json
-{ "token": "k3J...secure-random-string" }
-```
-**401**
-```json
-{ "detail": "Wrong In email or password" }
-```
-</details>
-
-<details>
-<summary><b>➕ POST /edit/add</b></summary>
-
-```bash
-curl -X POST $API/edit/add \
-  -H "Content-Type: application/json" \
-  -d '{"token": "<TOKEN>", "name": "Mocha", "price": 120, "category": "hot"}'
-```
-```json
-{ "ok": true }
-```
-</details>
-
-<details>
-<summary><b>✏️ POST /edit/item</b></summary>
-
-```bash
-curl -X POST $API/edit/item \
-  -H "Content-Type: application/json" \
-  -d '{"token": "<TOKEN>", "id": 1, "name": "Cappuccino", "price": 115, "category": "hot"}'
-```
-```json
-{ "ok": true }
-```
-</details>
-
-<details>
-<summary><b>🗑️ POST /edit/delete</b></summary>
-
-```bash
-curl -X POST $API/edit/delete \
-  -H "Content-Type: application/json" \
-  -d '{"token": "<TOKEN>", "id": 1}'
-```
-```json
-{ "ok": true }
-```
-`404` is returned if the item doesn't exist.
-</details>
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-
-## 🗄️ Data Model
-
-```mermaid
-erDiagram
-    MENU {
-        int    id PK
-        string name "unique, not null"
-        string category "hot | cold | cake | custom"
-        float  price "not null"
-    }
-    ADMIN {
-        int    id PK
-        string email "unique, not null"
-        string password "bcrypt hash"
-    }
-```
-
-On first run, tables are created automatically via `Base.metadata.create_all`. Set `SEED_MENU=1` to seed the default 16-item menu, and `ADMIN_EMAIL` + `ADMIN_PASSWORD` to auto-create the admin account (stored as a bcrypt hash).
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-
-## 🛡️ Security Notes
-
-| Concern | How it's handled |
-|---------|------------------|
-| Password storage | `passlib` + **bcrypt**, never stored in plain text |
-| Sessions | Random 256-bit `secrets.token_urlsafe(32)`, stored in Redis |
-| Expiry | Redis TTL of **3600 s** |
-| CORS | Only the origin in `FRONTEND_URL` is allowed |
-| Secrets | All credentials come from environment variables |
-| DB connection | `pool_pre_ping` + `pool_recycle` for serverless Postgres (Neon) |
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-
-## 📂 Project Structure
+## 🧩 Component Breakdown
 
 ```text
-.
-├── main.py            # FastAPI app: routes, CORS, Redis sessions
-├── db.py              # SQLAlchemy models, engine, seeding, bcrypt helpers
-├── tests/             # pytest suite
-├── Dockerfile
-├── requirements.txt
-├── .env.example
-└── docs/screenshots/
+app/
+├── page.tsx              # Public menu (Home)
+├── edit/
+│   └── page.tsx          # Admin dashboard (login + CRUD)
+├── CoffeeBeans.tsx       # Floating beans scenery (hot section)
+├── MatchaPowder.tsx      # `IcedFoam`: whipped cream clouds (iced section)
+├── ChocolateDrip.tsx     # Dripping chocolate (cakes section)
+public/
+├── coffee.mp4  Tea.mp4  latte.mp4
+├── iced.mp4    iced2.mp4  iced3.mp4
+└── cake.mp4    cake2.mp4  cake3.mp4
 ```
+
+| Component | Responsibility |
+|-----------|----------------|
+| `Home` | Fetches items once, filters per category with `by(category)` and renders three themed sections |
+| `MenuSection` | Layout of one section: title + list on one side, video stack on the other |
+| `MenuList` | Renders `name ····· price` rows with dotted leaders |
+| `VideoStack` | Three absolutely-positioned, rotated video cards (`POS` array) with hover effects |
+| `AdminLogin` | One component with 3 states: login, dashboard, and modals (edit/add) |
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+
+## 🎨 Design System
+
+| Token | Colour | Used for |
+|-------|--------|----------|
+| 🟫 Espresso | `#2a1a12` | Admin background |
+| 🌸 Orchid | `#dfc1d3` | Primary accent, buttons, focus rings |
+| 🍑 Peach | `#f3d9c8` | Prices, gradient highlights |
+| 🌿 Matcha | `#9dbb6b` / `#577665` | Iced section & ambient orb |
+| 🥛 Cream | `#e0dcd1` | Public menu background |
+| 🍫 Cocoa | `#3b2216` | Text on light buttons |
+
+Typography uses a handwritten script for the public menu and **Poppins** for the admin UI.
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+
+## 🛠️ Tech Stack
+
+| Layer | Tech |
+|-------|------|
+| Framework | **Next.js** (App Router, client components) |
+| Language | **TypeScript** |
+| Styling | **Tailwind CSS** |
+| State | React hooks (`useState`, `useRef`, `useEffect`) |
+| Hosting | **Vercel** |
+| API | FastAPI on **Render** |
+
+<img src="assets/divider.svg" width="100%" alt=""/>
+
+
+## 🚀 Getting Started
+
+```bash
+# 1. Clone
+git clone https://github.com/Omar404X0/Menu-Frontend.git
+cd Menu-Frontend
+
+# 2. Install
+npm install
+
+# 3. Configure
+cp .env.example .env.local     # then edit the API URL
+
+# 4. Run
+npm run dev
+```
+
+Open **http://localhost:3000** for the menu and **http://localhost:3000/edit** for the admin panel.
+
+Make sure the backend is running locally (default `http://localhost:8000`). See the backend repo for setup.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
 ## 🔧 Environment Variables
 
-| Variable | Required | Description | Example |
-|----------|:--------:|-------------|---------|
-| `DATABASE_URL` | prod | PostgreSQL URL (`postgres://` is auto-fixed to `postgresql://`). Falls back to local SQLite | `postgresql://user:pass@host/db` |
-| `REDIS_URL` | ✅ | Redis connection string | `redis://localhost:6379/0` |
-| `FRONTEND_URL` | ✅ | Allowed CORS origin | `https://menu-backend-fagr.vercel.app` |
-| `ADMIN_EMAIL` | first run | Creates the admin if missing | `admin@layali.com` |
-| `ADMIN_PASSWORD` | first run | Admin password (hashed on save) | `••••••••` |
-| `SEED_MENU` | optional | `1` seeds the default menu when the table is empty | `1` |
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `NEXT_PUBLIC_API_URL` | Base URL of the FastAPI backend | `https://menu-backend-grr7.onrender.com` |
 
-<img src="assets/divider.svg" width="100%" alt=""/>
+`.env.local` example:
 
-
-## 🚀 Run Locally
-
-```bash
-# 1. Clone
-git clone https://github.com/Omar404X0/Menu-Backend.git
-cd Menu-Backend
-
-# 2. Virtual env
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-# 3. Install
-pip install -r requirements.txt
-
-# 4. Start Redis (see Docker section) and set env
-export REDIS_URL=redis://localhost:6379/0
-export FRONTEND_URL=http://localhost:3000
-export ADMIN_EMAIL=admin@layali.com
-export ADMIN_PASSWORD=change-me
-export SEED_MENU=1
-
-# 5. Run
-uvicorn main:app --reload
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
-
-API → **http://localhost:8000** · Swagger → **http://localhost:8000/docs**
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-
-## 🐳 Docker
-
-Run only Redis:
-
-```bash
-docker run -d --name layali-redis -p 6379:6379 redis:7-alpine
-```
-
-Build and run the API:
-
-```bash
-docker build -t layali-api .
-docker run -d -p 8000:8000 --env-file .env --name layali-api layali-api
-```
-
-Or with Docker Compose (API + Redis):
-
-```yaml
-services:
-  redis:
-    image: redis:7-alpine
-    ports: ["6379:6379"]
-
-  api:
-    build: .
-    ports: ["8000:8000"]
-    env_file: .env
-    environment:
-      REDIS_URL: redis://redis:6379/0
-    depends_on: [redis]
-```
-
-```bash
-docker compose up --build
-```
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
-
-## 🧪 Testing
-
-```bash
-pip install pytest httpx
-pytest -v
-```
-
-Suggested coverage:
-
-- ✅ `GET /health` returns `{"status": "ok"}`
-- ✅ `GET /` returns the list of items
-- ✅ Login with wrong credentials → `401`
-- ✅ Login with correct credentials → returns a `token`
-- ✅ Protected routes without a valid token → `401`
-- ✅ Add → Edit → Delete full lifecycle
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
 ## ☁️ Deployment
 
-| Service | Provider | Notes |
-|---------|----------|-------|
-| API | **Render** | Deploys from GitHub, with env vars set in the dashboard |
-| Database | **Neon** | Serverless PostgreSQL, handled by `pool_pre_ping` and `pool_recycle` |
-| Redis | Managed Redis | Provided via `REDIS_URL` |
-| Frontend | **Vercel** | See the frontend repo |
+1. Push the repo to GitHub.
+2. Import it on **[Vercel](https://vercel.com)**.
+3. Add `NEXT_PUBLIC_API_URL` under *Project → Settings → Environment Variables*.
+4. Deploy. Every push to `main` redeploys automatically.
+5. Add your Vercel domain to the backend's `FRONTEND_URL` so **CORS** allows it.
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
 ## 🧠 What I Learned
 
-- 🔴 **Redis** for session storage with TTL-based expiry
-- 🐳 **Docker** for reproducible environments
-- 🧪 **pytest** for API testing
-- 🔐 Password hashing with bcrypt and token-based auth
-- 🌩️ Shipping a full stack with Render, Neon and Vercel
+This project was my hands-on playground for turning new tools into one real, deployed product:
+
+- 🔴 **Redis**: server-side sessions with automatic expiry
+- 🐳 **Docker**: containerising the backend for consistent environments
+- 🧪 **pytest**: testing the API endpoints
+- 🌩️ **Cloud deployment**: Vercel (frontend), Render (API), Neon (PostgreSQL)
+- 🎨 **Frontend craft**: glassmorphism, animation and responsive layouts
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
 ## 🗺️ Roadmap
 
-- [ ] Send the token via `Authorization: Bearer` header instead of the body
-- [ ] Protect `GET /edit/get` with auth (or remove the duplicate route)
-- [ ] Return `404` in `/edit/item` when the id doesn't exist
-- [ ] Rate-limit `/edit/login`
-- [ ] Logout endpoint (delete the Redis key)
-- [ ] Alembic migrations
-- [ ] GitHub Actions CI (pytest + Docker build)
+- [ ] Move the token to an `Authorization: Bearer` header
+- [ ] Replace `alert()` with toast notifications
+- [ ] Image upload for products
+- [ ] Arabic / RTL language toggle
+- [ ] Drag-and-drop ordering of items
+- [ ] Dark/light menu mode
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -435,14 +346,14 @@ Suggested coverage:
 
 | Repo | Description |
 |------|-------------|
-| **[Frontend](https://github.com/Omar404X0/Menu-Frontend)** (`Menu-Frontend`) | Next.js + TypeScript + Tailwind: the animated menu and admin dashboard |
+| **[Backend](https://github.com/Omar404X0/Menu-Backend)** (`Menu-Backend`) | FastAPI + SQLAlchemy + Redis + Docker + pytest |
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
 
 <div align="center">
 
-Made with ☕ and 🐍 by **[Omar Elmallah](https://github.com/Omar404X0)**
+Made with ☕ and 💜 by **[Omar Elmallah](https://github.com/Omar404X0)**
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
